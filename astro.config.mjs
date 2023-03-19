@@ -3,6 +3,8 @@ import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
+import netlify from "@astrojs/netlify/functions";
+
 // https://astro.build/config
 export default defineConfig({
   // site: "",
@@ -16,4 +18,6 @@ export default defineConfig({
     }),
     robotsTxt(),
   ],
+  output: "server",
+  adapter: netlify(),
 });

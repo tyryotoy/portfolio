@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://tyryotoy-portfolio.netlify.app/",
   name: "TYRYOTOY",
   jobDescription: "Web Developer",
   about: `フロントエンド、バックエンド、インフラなどを扱うフルスタックエンジニア。
@@ -76,7 +76,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/portfolio.png",
       githubUrl: "https://github.com/tyryotoy/portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      liveUrl: "https://tyryotoy-portfolio.netlify.app/",
     },
   ],
 };
