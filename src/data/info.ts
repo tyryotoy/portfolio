@@ -16,9 +16,7 @@ export const info = {
       location: "",
       startDate: "2021年6月",
       endDate: "現在",
-      description: [
-        "音声創作ソフトウェアサービスの開発",
-      ],
+      description: ["音声創作ソフトウェアサービスの開発"],
     },
     {
       name: "株式会社C (一部リモート)",

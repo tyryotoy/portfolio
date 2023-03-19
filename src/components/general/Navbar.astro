@@ -3,17 +3,17 @@ import { info } from "@data";
 ---
 
 <header
-  class="container flex items-center justify-between h-[80px] sm:h-[123px]"
+  class="container flex h-[80px] items-center justify-between sm:h-[123px]"
 >
   <a
-    class="text-2xl dark:text-light font-semibold dark:font-semibold font-outfit"
+    class="font-outfit text-2xl font-semibold dark:font-semibold dark:text-light"
     href="/"
     >{info.name}.
   </a>
   <nav>
     <ul class="flex items-center">
       <li>
-        <a class="p-4 dark:text-light block text-lg" href="/projects"
+        <a class="block p-4 text-lg dark:text-light" href="/projects"
           >Projects</a
         >
       </li>
@@ -21,7 +21,7 @@ import { info } from "@data";
         <button
           aria-label="theme-button"
           id="theme-button"
-          class="dark:text-light rounded-lg p-4 ml-2 bg-slate-100 dark:bg-[#202020]"
+          class="ml-2 rounded-lg bg-slate-100 p-4 dark:bg-[#202020] dark:text-light"
         ></button>
       </li>
     </ul>

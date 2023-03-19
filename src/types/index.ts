@@ -1,8 +1,8 @@
 export interface IMetaHead {
-    title: string;
-    description: string;
-    ogImageUrl: string;
-  }
+  title: string;
+  description: string;
+  ogImageUrl: string;
+}
 
 export interface IHeroProps {
   name: string;
