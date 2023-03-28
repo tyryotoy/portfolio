@@ -17,6 +17,19 @@ const featureProjects = info.projects.map((project, index) => {
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=G-QLFTG8BVHQ"
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "GA_MEASUREMENT_ID");
+    </script>
     <MetaHead
       title={"Portfolio"}
       description={info.about}
